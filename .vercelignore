@@ -1,8 +1,0 @@
-# Not needed on the live site. Keeps the setup docs (which contain the inbox address),
-# the tests and the full-size logo source off the public web.
-# Do not add app.js here: api/submit-lead.js requires it.
-README.md
-EMAIL_DELIVERABILITY_SETUP.md
-tests
-.qa
-Remotie Logo.png
