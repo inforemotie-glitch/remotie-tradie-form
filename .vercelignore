@@ -1,0 +1,11 @@
+# Not needed on the live site. Keeps the setup docs (which contain the inbox address),
+# the tests and the full-size logo source off the public web.
+# Do not add app.js or meta-pixel.js here: the page loads both, and api/submit-lead.js requires app.js.
+README.md
+EMAIL_DELIVERABILITY_SETUP.md
+META_PIXEL_CAPI_SETUP.md
+tests
+.qa
+Remotie Logo.png
+# Env files are never published, even on a CLI deploy (real values belong in Vercel's settings).
+.env*

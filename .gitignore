@@ -1,0 +1,8 @@
+# Real keys live only in Vercel > Project > Settings > Environment Variables. Never commit them.
+# Covers .env, .env.local, .env.production.local and every other .env file except the template.
+.env
+.env.*
+!.env.example
+
+# Vercel CLI project link
+.vercel
